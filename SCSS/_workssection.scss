@@ -1,0 +1,63 @@
+.works {
+  padding: 0px 80px;
+  padding-top: 70px;
+  .works_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .top_text {
+      color: #2a2c1f;
+      font-family: Roboto;
+      font-size: 18px;
+    }
+    .logo_ipsums {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+  }
+  .works_middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    .middle_title {
+      text-align: center;
+      font-family: Roboto;
+      color: #2a2c1f;
+    }
+    .middle_text {
+      text-align: center;
+      font-family: Roboto;
+      color: #65665c;
+    }
+  }
+  .works_bottom {
+    display: flex;
+    justify-content: space-between;
+    .bottom_card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 290px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 20px;
+
+      .bottom_card_title {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      .bottom_card_text {
+        font-size: 16px;
+        text-align: center;
+        font-family: Roboto;
+        line-height: 24px;
+      }
+    }
+  }
+}

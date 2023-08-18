@@ -1,0 +1,112 @@
+footer {
+  border-top: black solid 2px;
+
+  .txt_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px 80px;
+
+    .first {
+      .logo {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 9px;
+        .logo_icon {
+          background: #cf6f49;
+          width: 32px;
+          height: 32px;
+          border-radius: 12px;
+        }
+        .logo_text {
+          font-family: Roboto;
+          font-size: 30px;
+          font-weight: 700;
+        }
+      }
+    }
+    .second {
+      .footer_text {
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 16px;
+      }
+    }
+    .third {
+      .footer_text {
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 16px;
+      }
+    }
+    .fourth {
+      .footer_text {
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 16px;
+      }
+    }
+    .fourth {
+      .footer_text {
+        font-family: "Roboto", sans-serif;
+
+        margin-bottom: 16px;
+      }
+    }
+    .fifth {
+      font-family: "Roboto", sans-serif;
+      .fifth_text {
+        margin-bottom: 16px;
+      }
+
+      .fifth_content {
+        color: #65665c;
+
+        margin-bottom: 16px;
+      }
+      .fifth_logging {
+        margin-bottom: 16px;
+
+        .fifth_input {
+          color: #65665c;
+          width: 241px;
+          height: 48px;
+          border-radius: 10px;
+          border: #65665c solid 1px;
+        }
+        .fifth_btn {
+          background-color: #cf6f49;
+          color: #fff;
+          width: 127px;
+          height: 50px;
+          border: none;
+          border-radius: 10px;
+          font-family: "Roboto", sans-serif;
+          font-size: 16px;
+        }
+      }
+      .fifth_agree {
+        display: flex;
+        .agree_text {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .footer_bottom {
+    background-color: #f5f5f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 20px 144px;
+    .company_authority {
+      font-family: "Roboto" sans-serif;
+    }
+    .bottom_media {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 132px;
+    }
+  }
+}

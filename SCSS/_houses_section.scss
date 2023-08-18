@@ -1,0 +1,64 @@
+.houses_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .houses_left {
+    padding: 0 80px;
+    .houses_quote {
+      background: #e7e8e3;
+      border-radius: 5px;
+      font-family: "Roboto" sans-serif;
+      width: 171px;
+      text-align: center;
+      font-size: 14px;
+      color: #2a2c1f;
+    }
+
+    .houses_title {
+      font-size: 56px;
+      font-family: "Roboto" sans-serif;
+      color: #2a2c1f;
+      margin: 20px 0;
+    }
+    .houses_text {
+      font-family: "Roboto" sans-serif;
+      color: #65665c;
+      width: 500px;
+      line-height: 30px;
+      font-size: 20px;
+      margin: 20px 0;
+    }
+    .houses_direct {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 24px;
+      .houses_btn {
+        font-family: "Roboto" sans-serif;
+        color: #65665c;
+        background-color: #fff;
+        width: 192px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+          rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      }
+      .contact_dir {
+        font-family: "Roboto" sans-serif;
+        color: #65665c;
+        width: 127px;
+        height: 50px;
+        border: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 13px;
+        .houses_arrow {
+          transform: rotate(-90deg);
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}

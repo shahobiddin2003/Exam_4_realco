@@ -1,0 +1,105 @@
+.pop_up {
+  background-color: #939878;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  padding: 0px 48px;
+
+  .pop_up_text {
+    color: #fff;
+    font-family: Roboto;
+  }
+
+  .disappear {
+    border: none;
+    background-color: #939878;
+
+    .pop_up_cancel {
+      font-family: Roboto;
+    }
+  }
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: #e7e8e3 solid 1px;
+
+  .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 9px;
+
+    .logo_icon {
+      background: #cf6f49;
+      width: 32px;
+      height: 32px;
+      border-radius: 12px;
+    }
+
+    .logo_text {
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+
+  .navbar {
+    .navbar_list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+
+      .navbar_item {
+        list-style: none;
+
+        .navbar_link {
+          font-family: "Roboto", sans-serif;
+          display: flex;
+          align-items: center;
+
+          .scope {
+            margin-right: 4px;
+          }
+        }
+
+        .property {
+          img {
+            margin-left: 4px;
+          }
+        }
+
+        .navbar_btn {
+          height: 42px;
+        }
+
+        .btn1 {
+          width: 100px;
+          border: #e7e8e3 solid 1px;
+          background-color: #fff;
+          border-radius: 10px;
+          font-family: "Roboto", sans-serif;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+
+        .btn2 {
+          width: 159px;
+          color: #fff;
+          background-color: #cf6f49;
+          border: none;
+          border-radius: 10px;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+    }
+  }
+}
